@@ -1,4 +1,6 @@
-HW3: This project shows how we can connect PostgreSQL with flask and show SELECT results in a HTML table.
+HW3: This assignment shows when a user accesses your Flask server with 127.0.0.1:5000/api/update_basket_a,  a new row (5, 'Cherry') is inserted into basket_a. On the browser, it shows "Success!" Or error message from PostgreSQL.
+
+When a user accesses the Flask server with 127.0.0.1:5000/api/unique, should show unique fruits in basket_a and unique fruits in basket_b in an HTML table. If there are any errors from PostgreSQL, show the error message on the browser.
 
 Team members: Ryan J. Hinton and Wesley Tamer
 
